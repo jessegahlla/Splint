@@ -1,0 +1,30 @@
+The Flint Multi-Structure Suite
+===============================
+
+Welcome to Flint, protein folder. Flint is the beginning of a spiffy protein folding suite based on the All-atom Multiple Structure-Based Model developed by Jesse Singh, Paul Whitford, N.R. Hayre, Daniel Cox, and José Onuchic. This suite will eventually include everything one needs to:
+
+		* Set-up an molecular dynamics environment, organized by temperature. (Splint)
+		* Create a multiple structure topology file. (Hint)
+		* Create an MD analysis environment and begin analyzing results using
+		John Chodera's Multistate Bennett Acceptance Ratio (MBAR) module (Flint)
+		
+This implementation will be done piecemeal, in the same order as just written.
+
+What to Cite
+------------
+Check back later for the citation.
+
+Dependencies
+------------
+
+You need Python installed to create the environment, Gromacs to start runs, and MBAR to analyze the potential of mean-force.
+
+Download MBAR here: https://simtk.org/home/pymbar
+
+Contents
+--------
+
+Splint.py	- classes to set up single-temperature runs for GROMACS automatically
+\t		- test files for each module
+
+Flint was written by Jesse Singh, hello@jessesingh.com. Please credit the aforementioned paper and here's to good science!
