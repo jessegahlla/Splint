@@ -4,7 +4,7 @@ The Flint Multi-Structure Suite
 Welcome to Flint, protein folder. Flint is the beginning of a spiffy protein folding suite based on the All-atom Multiple Structure-Based Model developed by Jesse Singh, Paul Whitford, N.R. Hayre, Daniel Cox, and José Onuchic. This suite will eventually include everything one needs to:
 
 		* Set-up an molecular dynamics environment, organized by temperature. (Splint)
-		* Create a multiple structure topology file. (Hint)
+		* Create a multiple structure topology file. (Glint)
 		* Create an MD analysis environment and begin analyzing results using
 		John Chodera's Multistate Bennett Acceptance Ratio (MBAR) module (Flint)
 		
